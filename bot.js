@@ -100,4 +100,4 @@ bot.on("guildMemberAdd", member => {
       }
       });
    
-client.login("token");
+client.login(process.env.BOT_TOKEN);
